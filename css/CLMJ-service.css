@@ -1,0 +1,86 @@
+html {
+  background-color: #fff;
+}
+.top {
+  width: 100%;
+  height: 4.46rem;
+  padding-top: 0.7rem;
+  background: url(../img/CLMJ_square.png) no-repeat;
+  background-size: 100% 100%;
+}
+.top .content {
+  width: 5.75rem;
+  margin: 0 auto;
+  padding: 0.35rem 0.25rem;
+  position: relative;
+}
+.top .content h3 {
+  color: #2b76ff;
+  font-size: 0.32rem;
+  font-weight: bold;
+  text-align: center;
+}
+.top .content .p1 {
+  font-size: 0.26rem;
+  text-align: center;
+  color: #333;
+  margin: 0.2rem 0 0.25rem 0;
+}
+.top .content .p2 {
+  font-size: 0.26rem;
+  color: #0058ac;
+  text-align: justify;
+}
+.top .content img {
+  width: 1.26rem;
+  height: 1.26rem;
+  position: absolute;
+  left: -0.3rem;
+  top: -0.3rem;
+}
+.progress {
+  padding: 0.55rem;
+}
+.progress ul {
+  display: flex;
+  justify-content: space-between;
+}
+.progress ul li {
+  color: #2b76ff;
+  font-size: 0.24rem;
+  text-align: center;
+}
+.progress ul li img {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 auto 0.4rem;
+}
+.progress ul i {
+  font-size: 0.3rem;
+  align-self: center;
+  color: #2b76ff;
+}
+.bottom {
+  border-top: 1px solid #EBEBEB;
+  padding: 0.2rem 0.3rem;
+}
+.bottom h3 {
+  font-size: 0.3rem;
+  color: #333;
+  text-align: center;
+  line-height: 0.8rem;
+  position: relative;
+}
+.bottom .tips {
+  font-size: 0.28rem;
+  color: #666;
+  line-height: 0.55rem;
+}
+.bottom ul {
+  padding-left: 0.4rem;
+}
+.bottom ul li {
+  font-size: 0.28rem;
+  color: #666;
+  line-height: 0.55rem;
+}

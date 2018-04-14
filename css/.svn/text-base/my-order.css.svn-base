@@ -1,0 +1,196 @@
+.top {
+  width: 100%;
+  height: 3.8rem;
+  background: url(../img/order_banner.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.top div {
+  width: 1.32rem;
+  height: 1.32rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.6rem;
+  left: 50%;
+  margin-left: -0.66rem;
+  text-align: center;
+}
+.top div img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0.2rem;
+}
+.top div p {
+  font-size: 0.3rem;
+  color: #fff;
+}
+.tab {
+  margin-bottom: 1.3rem;
+}
+.tab .layui-tab {
+  margin: 0;
+  padding-top: 1.25rem;
+  position: relative;
+}
+.tab .layui-tab .layui-tab-title {
+  width: 7.1rem;
+  height: 2rem;
+  background-color: #fff;
+  border-radius: 0.1rem;
+  -moz-box-shadow: 0 2px 5px #999;
+  -webkit-box-shadow: 0 2px 5px #999;
+  box-shadow: 0 2px 5px #999;
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  margin-left: -3.55rem;
+}
+.tab .layui-tab .layui-tab-title .layui-this {
+  color: #2b76ff;
+}
+.tab .layui-tab .layui-tab-title .layui-this:after {
+  border: none;
+}
+.tab .layui-tab .layui-tab-title li {
+  width: 25%;
+  height: 100%;
+  padding-top: 0.4rem;
+  font-size: 0.28rem;
+  line-height: 0.8rem;
+}
+.tab .layui-tab .layui-tab-title li img {
+  width: 0.7rem;
+  height: 0.7rem;
+  margin: 0 auto;
+}
+.tab .layui-tab .layui-tab-content {
+  padding: 0;
+}
+.tab .layui-tab .layui-tab-content .list-null {
+  display: none;
+  text-align: center;
+}
+.tab .layui-tab .layui-tab-content .list-null img {
+  width: 2.86rem;
+  height: 2.5rem;
+  margin: 0.85rem auto 0.3rem;
+}
+.tab .layui-tab .layui-tab-content .list-null p {
+  color: #666;
+  font-size: 0.3rem;
+}
+.tab .layui-tab .layui-tab-content ul li {
+  margin-bottom: 0.2rem;
+  background-color: #fff;
+}
+.tab .layui-tab .layui-tab-content ul li h3 {
+  height: 1rem;
+  line-height: 1rem;
+  padding: 0 0.3rem;
+  font-size: 0.3rem;
+  border-bottom: 1px solid #EBEBEB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tab .layui-tab .layui-tab-content ul li .details {
+  padding: 0.25rem 0.3rem;
+  font-size: 0.28rem;
+  color: #666;
+  line-height: 0.65rem;
+}
+.tab .layui-tab .layui-tab-content ul li .details .punishment {
+  overflow: hidden;
+}
+.tab .layui-tab .layui-tab-content ul li .details .punishment p {
+  width: 2.3rem;
+  float: left;
+}
+.tab .layui-tab .layui-tab-content ul li .details .punishment p .money {
+  display: inline-block;
+  color: #fe8625;
+  margin-left: 0.15rem;
+}
+.tab .layui-tab .layui-tab-content ul li .operation {
+  padding: 0 0.3rem;
+  height: 1.16rem;
+  border-top: 1px solid #EBEBEB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tab .layui-tab .layui-tab-content ul li .operation p .total-count {
+  font-size: 0.32rem;
+  color: #2b76ff;
+  margin-left: 0.2rem;
+}
+.tab .layui-tab .layui-tab-content ul li .operation button {
+  width: 1.8rem;
+  height: 0.7rem;
+  border: 1px solid #2b76ff;
+  line-height: 0.68rem;
+  border-radius: 0.05rem;
+  font-size: 0.3rem;
+}
+.tab .layui-tab .layui-tab-content ul li .operation .cancel {
+  background-color: #fff;
+  color: #2b76ff;
+  margin-right: 0.2rem;
+}
+.tab .layui-tab .layui-tab-content ul li .operation .sub {
+  background-color: #2b76ff;
+  color: #fff;
+  -moz-box-shadow: 0 2px 10px #2b76ff;
+  -webkit-box-shadow: 0 2px 10px #2b76ff;
+  box-shadow: 0 2px 10px #2b76ff;
+}
+.tab .layui-tab .layui-tab-content ul li .had-pay {
+  justify-content: flex-end;
+}
+.tab .layui-tab .layui-tab-content .wait-pay {
+  color: #fe8625;
+  font-weight: bold;
+}
+.tab .layui-tab .layui-tab-content .completed {
+  color: #2b76ff;
+  font-weight: bold;
+}
+.tab .layui-tab .layui-tab-content .canceled {
+  color: #999;
+  font-weight: bold;
+}
+.layui-layer-title {
+  height: 1rem !important;
+  line-height: 1rem !important;
+  color: #fff !important;
+  background-color: #2b76ff !important;
+  font-size: 0.3rem !important;
+}
+.layui-layer-dialog .layui-layer-content {
+  font-size: 0.32rem !important;
+}
+.layui-layer-btn {
+  height: 0.9rem;
+  padding: 0 !important;
+}
+.layui-layer-btn a {
+  width: 50%;
+  height: 100% !important;
+  line-height: 0.9rem !important;
+  text-align: center;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.layui-layer-btn .layui-layer-btn0 {
+  border: none !important;
+  border-top: 1px solid #dedede !important;
+  background-color: #fff !important;
+  color: #2b76ff !important;
+}
+.layui-layer-btn .layui-layer-btn1 {
+  background-color: #2b76ff;
+  color: #fff;
+  border: none;
+  border-top: 1px solid #2b76ff;
+}

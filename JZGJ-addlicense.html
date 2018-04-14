@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>添加驾照</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/JZGJ-editInfo.css" />
+	</head>
+
+	<body>
+		<section class="take-pic">
+			<p class="des">拍照自动添加驾照</p>
+		</section>
+		<section class="upload-img">
+			<div>
+				<img src=""/>
+			</div>
+		</section>
+		<section>
+			<form class="layui-form" action="">
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>准驾类型：</label>
+					<div class="layui-input-block">
+						<select name="city" lay-verify="required">
+							<option value="">C1</option>
+							<option value="0">A1</option>
+							<option value="1">A2</option>
+							<option value="2">B1</option>
+							<option value="3">B2</option>
+							<option value="4">C1</option>
+						</select>
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>初次领证日期：</label>
+					<div class="layui-input-block lz-date">
+						<input type="text" class="layui-input" id="licenseDate" placeholder="请选择领证日期" readonly="readonly">
+						<img src="img/data.png" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>驾照有效期至：</label>
+					<div class="layui-input-block period-date">
+						<input type="text" class="layui-input" id="period" placeholder="请选择驾照有效期" readonly="readonly">
+						<img src="img/data.png" />
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>手机号码：</label>
+					<div class="layui-input-block">
+						<input type="number" name="title" required lay-verify="required" placeholder="请输入您的手机号码" autocomplete="off" class="layui-input">
+					</div>
+				</div>
+				<div class="bottom">
+					<a href="javascript:history.back(-1);" class="back">取消</a>
+					<button class="layui-btn" lay-submit lay-filter="formDemo">确定</button>
+				</div>
+			</form>
+		</section>
+	</body>
+	<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/JZGJ-editInfo.js" type="text/javascript" charset="utf-8"></script>
+</html>
+<!--弹出框内容-->
+<div class="layer-lincese">
+	<div class="lincese-img">
+		<img src="http://i03.pic.sogou.com/7dc9e0eddd15cf48"/>
+	</div>
+	<p>请将驾照完整置于框内</p>
+	<button class="know" id="upLoad">知道了</button>
+</div>

@@ -1,0 +1,40 @@
+
+.logo{
+	width: 2.95rem;
+	height: 2.95rem;
+	margin: 1.5rem auto 0.9rem;
+}
+p{
+	font-size: 0.28rem;
+	color: #999;
+	line-height: 0.6rem;
+	text-align: center;
+}
+p:nth-of-type(2){
+	margin-bottom: 0.5rem;
+}
+.add{
+	width: 7rem;
+	height: 1.1rem;
+	line-height: 1.1rem;
+	background-color: #2b76ff;
+	margin: 0 auto;
+	border-radius: 0.1rem;
+}
+.add a{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.add img{
+	width: 0.35rem;
+	height: 0.35rem;
+	margin-right: 0.1rem;
+}
+.add span{
+	font-size: 0.32rem;
+	font-weight: bold;
+	letter-spacing: 0.02rem;
+	color: #fff;
+}

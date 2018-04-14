@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>车辆免检审验</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/CLMJ-shenyan.css" />
+	</head>
+
+	<body>
+		<section class="top bg-green">
+			<div class="edge">
+				<div class="circle">
+					<canvas id="my_html" width="162" height="162"></canvas>
+					<img src="img/dot.png" />
+					<div class="text">
+						<h2>89</h2>
+						<p>距年检到期天数</p>
+						<p>-6年免检-</p>
+					</div>
+				</div>
+			</div>
+			<div class="help">
+				<img src="img/CLMJ_wenhao.png"/>
+			</div>
+		</section>
+		<section class="tips">
+			<h3 class="green-static">车辆已进入年检周期  请尽快办理</h3>
+			<p>逾期后车辆出事故不能报销</p>
+			<p>路上车被查将扣车扣分</p>
+			<button class="green-btn">立即办理</button>
+		</section>
+	</body>
+	<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/CLMJ-progress.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		layui.use('jquery',function () {
+			var $ = layui.$;
+			
+			$(document).ready(function () {
+				$("html").show();
+			})
+		})
+		
+		var num = 25   //进度条百分比数值
+		var p1 = new Progress({
+			el: 'my_html', //canvas元素id
+			deg: num, //绘制角度
+			timer: 10, //绘制时间
+			lineWidth: 5, //线宽
+			lineBgColor: '#75cfd2', //底圆颜色
+			lineColor: '#fff', //动态圆颜色
+			textColor: '#fff', //文本颜色
+			fontSize: 55, //字体大小
+			circleRadius: 81 //圆半径
+		});
+	</script>
+
+</html>

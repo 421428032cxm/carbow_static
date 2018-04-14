@@ -1,0 +1,203 @@
+.top {
+    width: 100%;
+    height: 3.8rem;
+    background: url(../img/order_banner.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    div {
+        width: 1.32rem;
+        height: 1.32rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 0.6rem;
+        left: 50%;
+        margin-left: -0.66rem;
+        text-align: center;
+        img {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 0.2rem;
+        }
+        p {
+            font-size: 0.3rem;
+            color: #fff;
+        }
+    }
+}
+
+.tab {
+    margin-bottom: 1.3rem;
+    .layui-tab {
+        margin: 0;
+        padding-top: 1.25rem;
+        position: relative;
+        .layui-tab-title {
+            width: 7.1rem;
+            height: 2rem;
+            background-color: #fff;
+            border-radius: 0.1rem;
+            -moz-box-shadow: 0 2px 5px #999;
+            -webkit-box-shadow: 0 2px 5px #999;
+            box-shadow: 0 2px 5px #999;
+            position: absolute;
+            top: -1rem;
+            left: 50%;
+            margin-left: -3.55rem;
+            .layui-this {
+                color: #2b76ff;
+            }
+            .layui-this:after {
+                border: none;
+            }
+            li {
+                width: 25%;
+                height: 100%;
+                padding-top: 0.4rem;
+                font-size: 0.28rem;
+                line-height: 0.8rem;
+                img {
+                    width: 0.7rem;
+                    height: 0.7rem;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .layui-tab-content {
+            padding: 0;
+            .list-null{
+                display: none;
+                text-align: center;
+                img{
+                    width: 2.86rem;
+                    height: 2.5rem;
+                    margin: 0.85rem auto 0.3rem;
+                }
+                p{
+                    color: #666;
+                    font-size: 0.3rem;
+                }
+            }
+            ul {
+                li {
+                    margin-bottom: 0.2rem;
+                    background-color: #fff;
+                    h3 {
+                        height: 1rem;
+                        line-height: 1rem;
+                        padding: 0 0.3rem;
+                        font-size: 0.3rem;
+                        border-bottom: 1px solid #EBEBEB;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .details {
+                        padding: 0.25rem 0.3rem;
+                        font-size: 0.28rem;
+                        color: #666;
+                        line-height: 0.65rem;
+                        .punishment {
+                            overflow: hidden;
+                            p {
+                                width: 2.3rem;
+                                float: left;
+                                .money {
+                                    display: inline-block;
+                                    color: #fe8625;
+                                    margin-left: 0.15rem;
+                                }
+                            }
+                        }
+                    }
+                    .operation {
+                        padding: 0 0.3rem;
+                        height: 1.16rem;
+                        border-top: 1px solid #EBEBEB;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        p {
+                            .total-count {
+                                font-size: 0.32rem;
+                                color: #2b76ff;
+                                margin-left: 0.2rem;
+                            }
+                        }
+                        button {
+                            width: 1.8rem;
+                            height: 0.7rem;
+                            border: 1px solid #2b76ff;
+                            line-height: 0.68rem;
+                            border-radius: 0.05rem;
+                            font-size: 0.3rem;
+                        }
+                        .cancel {
+                            background-color: #fff;
+                            color: #2b76ff;
+                            margin-right: 0.2rem;
+                        }
+                        .sub {
+                            background-color: #2b76ff;
+                            color: #fff;
+                            -moz-box-shadow: 0 2px 10px #2b76ff;
+                            -webkit-box-shadow: 0 2px 10px #2b76ff;
+                            box-shadow: 0 2px 10px #2b76ff;
+                        }
+                    }
+                    .had-pay{
+                        justify-content: flex-end;
+                    }
+                }
+            }
+            .wait-pay {
+                color: #fe8625;
+                font-weight: bold;
+            }
+            .completed{
+                color: #2b76ff;
+                font-weight: bold;
+            }
+            .canceled{
+                color: #999;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+//弹窗样式
+.layui-layer-title{
+    height: 1rem !important;
+    line-height: 1rem !important;
+    color: #fff !important;
+    background-color: #2b76ff !important;
+    font-size: 0.3rem !important;
+}
+.layui-layer-dialog .layui-layer-content{
+    font-size: 0.32rem !important;
+}
+.layui-layer-btn{
+    height: 0.9rem;
+    padding: 0 !important;
+    a{
+        width: 50%;
+        height: 100% !important;
+        line-height: 0.9rem !important;
+        text-align: center;
+        border-radius: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .layui-layer-btn0{
+        border: none !important;
+        border-top: 1px solid #dedede !important;
+        background-color: #fff !important;
+        color: #2b76ff !important;
+    }
+    .layui-layer-btn1{
+        background-color: #2b76ff;
+        color: #fff;
+        border: none;
+        border-top: 1px solid #2b76ff;
+    }
+}

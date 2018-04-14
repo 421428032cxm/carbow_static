@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>添加罚单</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/FKDJ-addTicket.css" />
+	</head>
+
+	<body>
+		<section class="take-pic">
+			<p class="des">拍照自动添加驾照</p>
+		</section>
+		<section class="upload-img">
+			<div>
+				<img src=""/>
+			</div>
+		</section>
+		<section>
+			<form class="layui-form" action="">
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>处罚金额：</label>
+					<div class="layui-input-block lz-date">
+						<input type="text" class="layui-input" placeholder="请输入处罚金额">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>联系电话：</label>
+					<div class="layui-input-block period-date">
+						<input type="text" class="layui-input" placeholder="请输入联系电话">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>服务费：</label>
+					<div class="layui-input-block service">
+						15元
+					</div>
+				</div>
+				<div class="mark">
+					<p class="tips">如果罚单超过15天请在金额上加入滞纳金</p>
+					<ul>
+						<li>
+							<img src="img/FKDJ-01.png"/>
+							<p>违法告知单</p>
+						</li>
+						<i class="layui-icon">&#xe602;</i>
+						<li>
+							<img src="img/FKDJ-02.png"/>
+							<p>教管所认罚</p>
+						</li>
+						<i class="layui-icon">&#xe602;</i>
+						<li>
+							<img src="img/FKDJ-03.png"/>
+							<p>领取处决书</p>
+						</li>
+						<i class="layui-icon">&#xe602;</i>
+						<li>
+							<img src="img/FKDJ-04.png"/>
+							<p>下单线上缴费</p>
+						</li>
+					</ul>
+				</div>
+				<div class="bottom">
+					<p>应付：<span>15元</span></p>
+					<button class="layui-btn" lay-submit lay-filter="formDemo">提交</button>
+				</div>
+			</form>
+		</section>
+	</body>
+	<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/FKDJ-addTicket.js" type="text/javascript" charset="utf-8"></script>
+</html>
+<!--弹出框内容-->
+<div class="layer-lincese">
+	<div class="lincese-img">
+		<img src="img/2SCbanner.png"/>
+	</div>
+	<p>请将罚单完整置于框内</p>
+	<button class="know" id="upLoad">知道了</button>
+</div>

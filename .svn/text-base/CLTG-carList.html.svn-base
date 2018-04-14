@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>车辆列表</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/CLTG-carList.css" />
+	</head>
+
+	<body>
+		<section class="banner">
+			<div class="layui-carousel" id="banner" lay-filter="lincese">
+				<div carousel-item>
+					<div class="banner-list banner-blue" id="0">
+						<div class="info">
+							<img src="img/CLTG_logo.png" />
+							<div>
+								<h3>豫A00001</h3>
+								<p>开车在外，车弓为您保驾护航</p>
+							</div>
+						</div>
+						<div class="punishment">
+							<p>违章：<span>7</span></p>
+							<p>扣分：<span>3</span></p>
+							<p>罚款：<span>1600</span></p>
+						</div>
+						<div class="edit">
+							<a href="JZGJ-editInfo.html">
+								<img src="img/edit.png" />
+								<span>编辑</span>
+							</a>
+						</div>
+					</div>
+					<div class="banner-list banner-green" id="1">
+						<div class="info">
+							<img src="img/CLTG_logo.png" />
+							<div>
+								<h3>豫A00001</h3>
+								<p>开车在外，车弓为您保驾护航</p>
+							</div>
+						</div>
+						<div class="punishment">
+							<p>违章：<span>7</span></p>
+							<p>扣分：<span>3</span></p>
+							<p>罚款：<span>1600</span></p>
+						</div>
+						<div class="edit">
+							<a href="JZGJ-editInfo.html">
+								<img src="img/edit.png" />
+								<span>编辑</span>
+							</a>
+						</div>
+					</div>
+					<div class="banner-list banner-orange" id="2">
+						<div class="info">
+							<img src="img/CLTG_logo.png" />
+							<div>
+								<h3>豫A00001</h3>
+								<p>开车在外，车弓为您保驾护航</p>
+							</div>
+						</div>
+						<div class="punishment">
+							<p>违章：<span>7</span></p>
+							<p>扣分：<span>3</span></p>
+							<p>罚款：<span>1600</span></p>
+						</div>
+						<div class="edit">
+							<a href="JZGJ-editInfo.html">
+								<img src="img/edit.png" />
+								<span>编辑</span>
+							</a>
+						</div>
+					</div>
+					<!--条目为空时 添加车辆-->
+					<div class="banner-list banner-blue add-car" id="3">
+						<a href="">
+							<img src="img/add.png" />
+							<p>点击添加您的爱车</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="artical">
+			<div class="content">
+				<h2>恭喜您的爱车已加入车弓智能托管</h2>
+				<p class="p">审验到期日：<span>2017年3月31日</span></p>
+				<h3>- - - - - - 车弓两次智能提醒 - - - - - -</h3>
+				<ul>
+					<li>
+						<p class="date"><i>①</i>2017年1月1日</p>
+						<p class="rest-of"><span class="static-green">90日</span>=>计算审验到期前</p>
+					</li>
+					<li>
+						<p class="date"><i>②</i>2017年3月22日</p>
+						<p class="rest-of"><span class="static-red">9日</span>=>计算审验到期前</p>
+					</li>
+				</ul>
+				<div class="btn">
+					<a href="CLTG-ticketList.html">违章查缴</a>
+					<a href="">车辆检测</a>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/CLTG-common.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

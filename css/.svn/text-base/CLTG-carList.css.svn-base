@@ -1,0 +1,315 @@
+.banner {
+  padding: 0.2rem 0.3rem;
+  background-color: #fff;
+}
+.layui-carousel > [carousel-item] > .banner-list {
+  border-radius: 0.1rem;
+  padding: 0.54rem 0.3rem;
+}
+.layui-carousel > [carousel-item] > .banner-blue {
+  background-color: #4287ff;
+}
+.layui-carousel > [carousel-item] > .banner-blue .edit {
+  background-color: #6fa4ff;
+}
+.layui-carousel > [carousel-item] > .banner-green {
+  background-color: #05c2c9;
+}
+.layui-carousel > [carousel-item] > .banner-green .edit {
+  background-color: #75ced2;
+}
+.layui-carousel > [carousel-item] > .banner-orange {
+  background-color: #ff9d4d;
+}
+.layui-carousel > [carousel-item] > .banner-orange .edit {
+  background-color: #ffae66;
+}
+.layui-carousel > [carousel-item] > .add-car {
+  font-size: 0.32rem;
+  text-align: center;
+}
+.layui-carousel > [carousel-item] > .add-car a {
+  color: #fff;
+}
+.layui-carousel > [carousel-item] > .add-car img {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin: 0 auto 0.3rem;
+}
+.banner-list {
+  color: #fff;
+  position: relative;
+}
+.banner-list .info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.85rem;
+}
+.banner-list .info img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.24rem;
+}
+.banner-list .info div h3 {
+  font-size: 0.34rem;
+  margin-bottom: 0.1rem;
+}
+.banner-list .info div p {
+  font-size: 0.24rem;
+}
+.banner-list .punishment {
+  padding: 0 0.2rem;
+  font-size: 0.26rem;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-list .punishment span {
+  font-size: 0.34rem;
+}
+.banner-list .edit {
+  width: 1.1rem;
+  height: 0.5rem;
+  border-radius: 0.25rem 0 0 0.25rem;
+  font-size: 0.24rem;
+  position: absolute;
+  right: 0;
+  top: 0.23rem;
+}
+.banner-list .edit a {
+  height: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-list .edit a img {
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-right: 0.1rem;
+}
+.artical .content {
+  width: 100%;
+  height: auto;
+  background: url(../img/CLTG_bg.png) no-repeat;
+  background-size: 100% auto;
+  padding: 0.83rem 0;
+  text-align: center;
+}
+.artical .content h2 {
+  font-size: 0.34rem;
+  color: #4287ff;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+.artical .content .p {
+  font-size: 0.26rem;
+  color: #999;
+  margin-bottom: 0.6rem;
+}
+.artical .content .p span {
+  color: #4287ff;
+}
+.artical .content h3 {
+  font-size: 0.28rem;
+  color: #222;
+  margin-bottom: 0.4rem;
+}
+.artical .content ul {
+  padding: 0 0.6rem;
+  margin-bottom: 0.6rem;
+}
+.artical .content ul li {
+  height: 1.05rem;
+  line-height: 1.05rem;
+  border-bottom: 1px solid #EBEBEB;
+  display: flex;
+  justify-content: space-between;
+}
+.artical .content ul li .date {
+  font-size: 0.3rem;
+  color: #666;
+}
+.artical .content ul li .date i {
+  display: inline-block;
+  margin-right: 0.15rem;
+}
+.artical .content ul li .rest-of {
+  font-size: 0.26rem;
+  color: #999;
+}
+.artical .content ul li .rest-of span {
+  font-size: 0.28rem;
+}
+.artical .content ul li .rest-of .static-green {
+  color: #05c2c9;
+}
+.artical .content ul li .rest-of .static-red {
+  color: red;
+}
+.artical .content .btn {
+  padding: 0 0.52rem;
+  display: flex;
+  justify-content: space-between;
+}
+.artical .content .btn a {
+  width: 3.1rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  background-color: #2b76ff;
+  color: #fff;
+  border-radius: 0.05rem;
+  font-size: 0.32rem;
+  font-weight: bold;
+}
+.ticket-list .refrash {
+  padding: 0 0.3rem;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.26rem;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+}
+.ticket-list .refrash .shuaxin {
+  display: flex;
+  align-items: center;
+  color: #2b76ff;
+  font-size: 0.32rem;
+  line-height: normal;
+}
+.ticket-list .refrash .shuaxin img {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.1rem;
+}
+.ticket-list ul {
+  margin-bottom: 1.1rem;
+}
+.ticket-list ul li {
+  margin-bottom: 0.2rem;
+  background-color: #fff;
+}
+.ticket-list ul li h3 {
+  height: 1rem;
+  padding: 0 0.3rem;
+  font-size: 0.3rem;
+  border-bottom: 1px solid #EBEBEB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ticket-list ul li h3 .wz-num {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.ticket-list ul li h3 .wz-num .select {
+  display: none;
+  margin-right: 0.2rem;
+}
+.ticket-list ul li .details {
+  padding: 0.25rem 0.3rem;
+  font-size: 0.28rem;
+  color: #666;
+  line-height: 0.65rem;
+}
+.ticket-list ul li .details .punishment {
+  overflow: hidden;
+}
+.ticket-list ul li .details .punishment p {
+  width: 2.3rem;
+  float: left;
+}
+.ticket-list ul li .details .punishment p .money {
+  display: inline-block;
+  color: #fe8625;
+  margin-left: 0.15rem;
+}
+.deal-btn {
+  width: 100%;
+  height: 1.1rem;
+  background-color: #2b76ff;
+  color: #fff;
+  border: none;
+  font-size: 0.36rem;
+  letter-spacing: 0.02rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.submit {
+  width: 100%;
+  height: 1.1rem;
+  background-color: #fff;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: none;
+}
+.submit .tol-info {
+  width: 4.8rem;
+  height: 100%;
+  float: left;
+  border-top: 1px solid #EBEBEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit .tol-info .select-all {
+  font-size: 0.26rem;
+  color: #333;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.submit .tol-info .select-all .layui-form-checkbox[lay-skin=primary] i {
+  width: 0.45rem;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  border-radius: 0.45rem;
+}
+.submit .tol-info .select-all .layui-form-checkbox {
+  margin-right: 0.2rem;
+}
+.submit .tol-info .count-info {
+  font-size: 0.24rem;
+  color: #333;
+  line-height: 0.4rem;
+}
+.submit .tol-info .count-info span {
+  color: #2b76ff;
+  margin: 0 0.1rem;
+}
+.submit button {
+  float: right;
+  width: 2.7rem;
+  height: 100%;
+  font-size: 0.36rem;
+  background-color: #2b76ff;
+  border-top: 1px solid #2b76ff;
+}
+.layui-anim-rotate {
+  animation-duration: 0.7s !important;
+}
+.layui-form-checkbox {
+  border-radius: 0;
+}
+.layui-form-checkbox[lay-skin=primary] i {
+  width: 0.4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  border-radius: 50%;
+}
+.layui-form-checked[lay-skin=primary] i {
+  background-color: #2b76ff;
+  border-color: #2b76ff;
+}
+.layui-form-checkbox[lay-skin=primary]:hover i {
+  border-color: #2b76ff;
+}
+.layui-form-checkbox[lay-skin=primary] span {
+  line-height: 0.5rem;
+  padding-right: 0;
+}

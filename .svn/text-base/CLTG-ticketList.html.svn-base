@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>车辆列表</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/CLTG-carList.css" />
+	</head>
+
+	<body>
+		<section class="banner">
+			<div class="layui-carousel" id="banner" lay-filter="lincese">
+				<div carousel-item>
+					<div class="banner-list banner-blue" id="0">
+						<div class="info">
+							<img src="img/CLTG_logo.png" />
+							<div>
+								<h3>豫A00001</h3>
+								<p>开车在外，车弓为您保驾护航</p>
+							</div>
+						</div>
+						<div class="punishment">
+							<p>违章：<span>7</span></p>
+							<p>扣分：<span>3</span></p>
+							<p>罚款：<span>1600</span></p>
+						</div>
+						<div class="edit">
+							<a href="JZGJ-editInfo.html">
+								<img src="img/edit.png" />
+								<span>编辑</span>
+							</a>
+						</div>
+					</div>
+					<div class="banner-list banner-green" id="1">
+						<div class="info">
+							<img src="img/CLTG_logo.png" />
+							<div>
+								<h3>豫A00001</h3>
+								<p>开车在外，车弓为您保驾护航</p>
+							</div>
+						</div>
+						<div class="punishment">
+							<p>违章：<span>7</span></p>
+							<p>扣分：<span>3</span></p>
+							<p>罚款：<span>1600</span></p>
+						</div>
+						<div class="edit">
+							<a href="JZGJ-editInfo.html">
+								<img src="img/edit.png" />
+								<span>编辑</span>
+							</a>
+						</div>
+					</div>
+					<div class="banner-list banner-orange" id="2">
+						<div class="info">
+							<img src="img/CLTG_logo.png" />
+							<div>
+								<h3>豫A00001</h3>
+								<p>开车在外，车弓为您保驾护航</p>
+							</div>
+						</div>
+						<div class="punishment">
+							<p>违章：<span>7</span></p>
+							<p>扣分：<span>3</span></p>
+							<p>罚款：<span>1600</span></p>
+						</div>
+						<div class="edit">
+							<a href="JZGJ-editInfo.html">
+								<img src="img/edit.png" class="layui-anim" />
+								<span>编辑</span>
+							</a>
+						</div>
+					</div>
+					<!--条目为空时 添加车辆-->
+					<div class="banner-list banner-blue add-car" id="3">
+						<a href="">
+							<img src="img/add.png" />
+							<p>点击添加您的爱车</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ticket-list">
+			<div class="refrash">
+				<p class="time">更新时间：<span>2017-12-31 10：11</span></p>
+				<p class="shuaxin"><img src="img/refrash_blue.png" />刷新</p>
+			</div>
+			<form class="layui-form" action="">
+				<ul>
+					<li>
+						<h3>
+						   <p class="wz-num">
+							   <span class="select"><input type="checkbox" name="check" title="" lay-skin="primary"></span>违章编号：<span>3490580</span>
+						   </p>
+						   <p><i class="layui-icon">&#xe602;</i></p>
+					    </h3>
+						<div class="details">
+							<p class="address">[河南郑州]商户内环商务东五街交叉口</p>
+							<p class="reason">不按规定停车</p>
+							<div class="punishment">
+								<p><span class="options">扣分：</span><span class="money score">3</span></p>
+								<p><span class="options">滞纳金：</span><span class="money delay-pay">0</span></p>
+							</div>
+							<div class="punishment">
+								<p><span class="options">罚款：</span><span class="money fine">100</span>元</p>
+								<p><span class="options">服务费：</span><span class="money service-fee">0</span></p>
+							</div>
+							<p class="date">2017-12-25 10：28：49</p>
+						</div>
+					</li>
+					<li>
+						<h3>
+						   <p class="wz-num">
+							  <span class="select"><input type="checkbox" name="check" title="" lay-skin="primary"></span>违章编号：<span>3490580</span>
+						   </p>
+						   <p><i class="layui-icon">&#xe602;</i></p>
+					    </h3>
+						<div class="details">
+							<p class="address">[河南郑州]商户内环商务东五街交叉口</p>
+							<p class="reason">不按规定停车</p>
+							<div class="punishment">
+								<p><span class="options">扣分：</span><span class="money score">6</span></p>
+								<p><span class="options">滞纳金：</span><span class="money delay-pay">15</span></p>
+							</div>
+							<div class="punishment">
+								<p><span class="options">罚款：</span><span class="money fine">200</span>元</p>
+								<p><span class="options">服务费：</span><span class="money service-fee">15</span></p>
+							</div>
+							<p class="date">2017-12-25 10：28：49</p>
+						</div>
+					</li>
+					<li>
+						<h3>
+						   <p class="wz-num">
+							  <span class="select"><input type="checkbox" name="check" title="" lay-skin="primary"></span>违章编号：<span>3490580</span>
+						   </p>
+						   <p><i class="layui-icon">&#xe602;</i></p>
+					    </h3>
+						<div class="details">
+							<p class="address">[河南郑州]商户内环商务东五街交叉口</p>
+							<p class="reason">不按规定停车</p>
+							<div class="punishment">
+								<p><span class="options">扣分：</span><span class="money score">12</span></p>
+								<p><span class="options">滞纳金：</span><span class="money delay-pay">15</span></p>
+							</div>
+							<div class="punishment">
+								<p><span class="options">罚款：</span><span class="money fine">100</span>元</p>
+								<p><span class="options">服务费：</span><span class="money service-fee">15</span></p>
+							</div>
+							<p class="date">2017-12-25 10：28：49</p>
+						</div>
+					</li>
+				</ul>
+
+				<div class="submit">
+					<div class="tol-info">
+						<div class="select-all">
+							<input type="checkbox" class="check-all" name="checkAll" title="全选" lay-skin="primary">
+						</div>
+						<div class="count-info">
+							<p>已选<span class="num">0</span>笔，共<span class="totalScore">0</span>分</p>
+							<p>合计：¥<span class="totalCount">0</span>元</p>
+						</div>
+					</div>
+					<button class="layui-btn" lay-submit lay-filter="formDemo">立即处理</button>
+				</div>
+			</form>
+		</section>
+
+		<button class="deal-btn">
+			处理违章
+		</button>
+	</body>
+	<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/CLTG-common.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

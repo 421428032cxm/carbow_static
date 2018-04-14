@@ -1,0 +1,197 @@
+.take-pic {
+	width: 100%;
+	height: 2.8rem;
+	text-align: center;
+	padding-top: 1.6rem;
+	font-size: 0.32rem;
+	font-weight: bold;
+	color: #2b76ff;
+	background: url("../img/addlicense .png") no-repeat;
+	background-size: 100% 100%;
+}
+
+.upload-img {
+	width: 100%;
+	height: 2.8rem;
+	margin-bottom: 0.2rem;
+	display: none;
+}
+
+.upload-img div {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.upload-img img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.layui-form-item {
+	height: 1.1rem;
+	background: #fff;
+	padding: 0 0.35rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.32rem;
+	color: #333;
+}
+
+.layui-form-item label {
+	width: auto;
+	height: 100%;
+	padding: 0;
+	line-height: 1.1rem;
+	font-weight: bold;
+}
+
+.layui-form-item label .star {
+	display: inline-block;
+	width: 0.3rem;
+	text-align: center;
+	height: 100%;
+	color: red;
+}
+
+.layui-form-item .layui-input-block {
+	height: 100%;
+	margin-left: 2rem;
+}
+
+.layui-form-item .layui-input-block .layui-input {
+	height: 100%;
+	border: none;
+}
+
+.service {
+	line-height: 1.1rem;
+	color: #2b76ff;
+	padding-left: 10px;
+}
+
+.mark {
+	padding: 0.2rem 0.3rem;
+}
+
+.mark .tips {
+	color: #666;
+	font-size: 0.28rem;
+	margin-bottom: 0.9rem;
+}
+
+.mark ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.mark ul li img {
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0 auto 0.4rem;
+}
+
+.mark ul li p {
+	color: #999;
+	font-size: 0.28rem;
+	text-align: center;
+}
+
+.mark ul i {
+	line-height: 0.6rem;
+	color: #999;
+}
+
+.bottom {
+	width: 100%;
+	height: 1.1rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+}
+
+.bottom button {
+	width: 50%;
+	height: 100%;
+	line-height: 1.1rem;
+	padding: 0;
+	margin-left: 0 !important;
+	border: none;
+	border-radius: 0;
+	font-size: 0.32rem;
+	font-weight: bold;
+}
+
+.bottom p {
+	width: 50%;
+	height: 100%;
+	line-height: 1.1rem;
+	text-align: center;
+	font-size: 0.26rem;
+	font-weight: bold;
+	background-color: #fff;
+}
+.bottom p span{
+	font-size: 0.32rem;
+	color: #2b76ff;
+	margin-left: 0.1rem;
+}
+
+.bottom button {
+	background-color: #2b76ff;
+	color: #fff;
+}
+
+body .yourclass {
+	width: 6.7rem;
+	height: 5.6rem;
+}
+
+.layer-lincese {
+	padding-top: 0.5rem;
+	height: 5.6rem;
+	text-align: center;
+	position: relative;
+	display: none;
+}
+
+.layer-lincese .lincese-img {
+	width: 4.9rem;
+	height: 3.22rem;
+	margin: 0 auto;
+	background-color: #eeeeee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.layer-lincese .lincese-img img {
+	max-width: 3.84rem;
+	max-height: 2.68rem;
+}
+
+.layer-lincese p {
+	font-size: 0.24rem;
+	color: #666;
+	margin-top: 0.2rem;
+	text-align: center;
+}
+
+.layer-lincese button {
+	width: 100%;
+	height: 1rem;
+	border: none;
+	background-color: #2b76ff;
+	color: #fff;
+	letter-spacing: 0.05rem;
+	font-weight: bold;
+	font-size: 0.32rem;
+	line-height: 1rem;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}

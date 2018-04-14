@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>4S店</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/CLMJ-service.css" />
+	</head>
+
+	<body>
+		<section class="top">
+			<div class="content">
+				<h3>六年内新车年检代办服务</h3>
+				<p class="p1">--含年检预约和代办服务--</p>
+				<p class="p2">流年免检指的是：2010年8月31日后上牌的七座以下的非运营的小型客车，六年内可免上线检测</p>
+				<img src="img/CLMJ_gong.png"/>
+			</div>
+		</section>
+		
+		<section class="progress">
+			<ul>
+				<li>
+					<img src="img/CLMJ_logo1.png"/>
+					<p>添加车辆</p>
+				</li>
+				<i class="layui-icon">&#xe602;</i>
+				<li>
+					<img src="img/CLMJ_logo2.png"/>
+					<p>智能匹配</p>
+				</li>
+				<i class="layui-icon">&#xe602;</i>
+				<li>
+					<img src="img/CLMJ_logo3.png"/>
+					<p>一键下单</p>
+				</li>
+				<i class="layui-icon">&#xe602;</i>
+				<li>
+					<img src="img/CLMJ_logo4.png"/>
+					<p>极速办理</p>
+				</li>
+			</ul>
+		</section>
+		
+		<section class="bottom">
+			<h3>准备材料</h3>
+			<p class="tips">请将以下年检代办所需材料备齐</p>
+			<ul>
+				<li>1、有效期内交强险副本原件；</li>
+				<li>
+					<p>2、有效期内车船税发票原件；</p>
+					<p>（如交强险含车船税，则无需提供）；</p>
+				</li>
+				<li>
+					3、车主身份证正反面复印件；
+				</li>
+				<li>4、车辆行驶证原件正副本；</li>
+			</ul>
+		</section>
+	</body>
+
+</html>
