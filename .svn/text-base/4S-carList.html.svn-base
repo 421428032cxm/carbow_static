@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>4S店</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/4S-carShop.css" />
+	</head>
+
+	<body>
+		<div class="head">
+			濮阳顺峰汽车4S店
+		</div>
+		<section>
+			<ul>
+				<li>
+					<div class="car-image"><img src="img/dispaly.png" /></div>
+					<div class="infor">
+						<p class="name line1-overflow">大众 速腾新款大众</p>
+						<div class="else-info">
+							<div class="left">
+								<p class="price line1-overflow">16.98 - 25.98万</p>
+								<p class="introduction line1-overflow">简介简介简介</p>
+							</div>
+							<div class="test-drive">
+								<button>立即试驾</button>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="car-image"><img src="img/dispaly.png" /></div>
+					<div class="infor">
+						<p class="name line1-overflow">大众 速腾新款大众</p>
+						<div class="else-info">
+							<div class="left">
+								<p class="price line1-overflow">16.98 - 25.98万</p>
+								<p class="introduction line1-overflow">简介简介简介</p>
+							</div>
+							<div class="test-drive">
+								<button>立即试驾</button>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="car-image"><img src="img/dispaly.png" /></div>
+					<div class="infor">
+						<p class="name line1-overflow">大众 速腾新款大众</p>
+						<div class="else-info">
+							<div class="left">
+								<p class="price line1-overflow">16.98 - 25.98万</p>
+								<p class="introduction line1-overflow">简介简介简介</p>
+							</div>
+							<div class="test-drive">
+								<button>立即试驾</button>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="car-image"><img src="img/dispaly.png" /></div>
+					<div class="infor">
+						<p class="name line1-overflow">大众 速腾新款大众</p>
+						<div class="else-info">
+							<div class="left">
+								<p class="price line1-overflow">16.98 - 25.98万</p>
+								<p class="introduction line1-overflow">简介简介简介</p>
+							</div>
+							<div class="test-drive">
+								<button>立即试驾</button>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="car-image"><img src="img/dispaly.png" /></div>
+					<div class="infor">
+						<p class="name line1-overflow">大众 速腾新款大众</p>
+						<div class="else-info">
+							<div class="left">
+								<p class="price line1-overflow">16.98 - 25.98万</p>
+								<p class="introduction line1-overflow">简介简介简介</p>
+							</div>
+							<div class="test-drive">
+								<button>立即试驾</button>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="car-image"><img src="img/dispaly.png" /></div>
+					<div class="infor">
+						<p class="name line1-overflow">大众 速腾新款大众</p>
+						<div class="else-info">
+							<div class="left">
+								<p class="price line1-overflow">16.98 - 25.98万</p>
+								<p class="introduction line1-overflow">简介简介简介</p>
+							</div>
+							<div class="test-drive">
+								<button>立即试驾</button>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</body>
+	<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/4S-appointmentLayer.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
+<!--预约弹窗-->
+<div class="layer-yuyue">
+	<form class="layui-form" action="">
+		<p>预约试驾</p>
+		<div class="layui-form-item">
+			<label class="layui-form-label"><span>姓</span><span>名：</span></label>
+			<div class="layui-input-block">
+				<input type="text" name="title" required lay-verify="required" placeholder="请输入您的姓名" autocomplete="off" class="layui-input">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">电话：</label>
+			<div class="layui-input-block">
+				<input type="number" name="title" required lay-verify="required" placeholder="请输入您的电话" autocomplete="off" class="layui-input">
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">预约时间：</label>
+			<div class="layui-input-block">
+				<input type="text" class="layui-input" id="chooseDate" placeholder="请选择预约时间">
+			</div>
+		</div>
+		<div class="layui-form-item submit">
+			<button class="layui-btn" lay-submit lay-filter="formDemo">立即预约</button>
+		</div>
+		<p class="close"><i class="layui-icon">&#x1006;</i></p>
+	</form>
+</div>

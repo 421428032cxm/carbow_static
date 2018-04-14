@@ -1,0 +1,113 @@
+html {
+  background-color: #fff;
+  display: none;
+}
+.top {
+  width: 100%;
+  height: 5.7rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.top .edge {
+  width: 185px;
+  height: 185px;
+  background: url(../img/CLMJ_yh.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top .edge .circle {
+  width: 162px;
+  height: 162px;
+  position: relative;
+}
+.top .edge .circle img {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  margin-left: -11px;
+}
+.top .edge .circle .text {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  line-height: 24px;
+  position: absolute;
+  bottom: 20px;
+}
+.top .edge .circle .text h2 {
+  font-size: 50px;
+  line-height: 65px;
+}
+.top .help {
+  width: 0.4rem;
+  height: 0.4rem;
+  position: absolute;
+  right: 0.3rem;
+  top: 0.3rem;
+}
+.top .help img {
+  width: 100%;
+  height: 100%;
+}
+.bg-red {
+  background: url(../img/CLMJ_red.png) no-repeat;
+  background-size: 100% 100%;
+}
+.bg-blue {
+  background: url(../img/CLMJ_blue.png) no-repeat;
+  background-size: 100% 100%;
+}
+.bg-green {
+  background: url(../img/CLMJ_green.png) no-repeat;
+  background-size: 100% 100%;
+}
+.tips {
+  padding-top: 1.1rem;
+  text-align: center;
+}
+.tips h3 {
+  font-size: 0.32rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+.tips .red-static {
+  color: #ff4453;
+}
+.tips .blue-static {
+  color: #2b76ff;
+}
+.tips .green-static {
+  color: #0fa8ae;
+}
+.tips p {
+  font-size: 0.26rem;
+  color: #666;
+  line-height: 0.5rem;
+}
+.tips button {
+  width: 6.9rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.36rem;
+  border: none;
+  border-radius: 0.08rem;
+  margin: 0.6rem auto 0;
+}
+.tips .red-btn {
+  background-color: #ff4453;
+  color: #fff;
+}
+.tips .grey-btn {
+  background-color: #d0d0d0;
+  color: #666;
+}
+.tips .green-btn {
+  background-color: #0fa8ae;
+  color: #fff;
+}

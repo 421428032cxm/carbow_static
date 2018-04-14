@@ -1,0 +1,334 @@
+.banner {
+    padding: 0.2rem 0.3rem;
+    background-color: #fff;
+}
+
+.layui-carousel>[carousel-item]>.banner-list {
+    border-radius: 0.1rem;
+    padding: 0.54rem 0.3rem;
+}
+
+.layui-carousel>[carousel-item]>.banner-blue {
+    background-color: #4287ff;
+    .edit {
+        background-color: #6fa4ff;
+    }
+}
+
+.layui-carousel>[carousel-item]>.banner-green {
+    background-color: #05c2c9;
+    .edit {
+        background-color: #75ced2;
+    }
+}
+
+.layui-carousel>[carousel-item]>.banner-orange {
+    background-color: #ff9d4d;
+    .edit {
+        background-color: #ffae66;
+    }
+}
+
+.layui-carousel>[carousel-item]>.add-car {
+    font-size: 0.32rem;
+    text-align: center;
+    a{
+        color: #fff;
+    }
+    img{
+        width: 1.35rem;
+        height: 1.35rem;
+        margin:0 auto 0.3rem;
+    }
+}
+
+.banner-list {
+    color: #fff;
+    position: relative;
+    .info {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.85rem;
+        img {
+            width: 1rem;
+            height: 1rem;
+            margin-right: 0.24rem;
+        }
+        div {
+            h3 {
+                font-size: 0.34rem;
+                margin-bottom: 0.1rem;
+            }
+            p {
+                font-size: 0.24rem;
+            }
+        }
+    }
+    .punishment {
+        padding: 0 0.2rem;
+        font-size: 0.26rem;
+        display: flex;
+        justify-content: space-between;
+        span {
+            font-size: 0.34rem;
+        }
+    }
+    .edit {
+        width: 1.1rem;
+        height: 0.5rem;
+        border-radius: 0.25rem 0 0 0.25rem;
+        font-size: 0.24rem;
+        position: absolute;
+        right: 0;
+        top: 0.23rem;
+        a {
+            height: 100%;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 0.2rem;
+                height: 0.2rem;
+                margin-right: 0.1rem;
+            }
+        }
+    }
+}
+
+.artical {
+    .content {
+        width: 100%;
+        height: auto;
+        background: url(../img/CLTG_bg.png) no-repeat;
+        background-size: 100% auto;
+        padding: 0.83rem 0;
+        text-align: center;
+        h2 {
+            font-size: 0.34rem;
+            color: #4287ff;
+            font-weight: bold;
+            margin-bottom: 0.4rem;
+        }
+        .p {
+            font-size: 0.26rem;
+            color: #999;
+            margin-bottom: 0.6rem;
+            span {
+                color: #4287ff;
+            }
+        }
+        h3 {
+            font-size: 0.28rem;
+            color: #222;
+            margin-bottom: 0.4rem;
+        }
+        ul {
+            padding: 0 0.6rem;
+            margin-bottom: 0.6rem;
+            li {
+                height: 1.05rem;
+                line-height: 1.05rem;
+                border-bottom: 1px solid #EBEBEB;
+                display: flex;
+                justify-content: space-between;
+                .date {
+                    font-size: 0.3rem;
+                    color: #666;
+                    i {
+                        display: inline-block;
+                        margin-right: 0.15rem;
+                    }
+                }
+                .rest-of {
+                    font-size: 0.26rem;
+                    color: #999;
+                    span {
+                        font-size: 0.28rem;
+                    }
+                    .static-green {
+                        color: #05c2c9;
+                    }
+                    .static-red {
+                        color: red;
+                    }
+                }
+            }
+        }
+        .btn {
+            padding: 0 0.52rem;
+            display: flex;
+            justify-content: space-between;
+            a {
+                width: 3.1rem;
+                height: 1rem;
+                text-align: center;
+                line-height: 1rem;
+                background-color: #2b76ff;
+                color: #fff;
+                border-radius: 0.05rem;
+                font-size: 0.32rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.ticket-list {
+    .refrash {
+        padding: 0 0.3rem;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        font-size: 0.26rem;
+        color: #666;
+        display: flex;
+        justify-content: space-between;
+        .shuaxin {
+            display: flex;
+            align-items: center;
+            color: #2b76ff;
+            font-size: 0.32rem;
+            line-height: normal;
+            img {
+                width: 0.4rem;
+                height: 0.4rem;
+                margin-right: 0.1rem;
+            }
+        }
+    }
+    ul {
+        margin-bottom: 1.1rem;
+        li {
+            margin-bottom: 0.2rem;
+            background-color: #fff;
+            h3 {
+                height: 1rem;
+                padding: 0 0.3rem;
+                font-size: 0.3rem;
+                border-bottom: 1px solid #EBEBEB;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .wz-num {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    .select {
+                        display: none;
+                        margin-right: 0.2rem;
+                    }
+                }
+            }
+            .details {
+                padding: 0.25rem 0.3rem;
+                font-size: 0.28rem;
+                color: #666;
+                line-height: 0.65rem;
+                .punishment {
+                    overflow: hidden;
+                    p {
+                        width: 2.3rem;
+                        float: left;
+                        .money {
+                            display: inline-block;
+                            color: #fe8625;
+                            margin-left: 0.15rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.deal-btn {
+    width: 100%;
+    height: 1.1rem;
+    background-color: #2b76ff;
+    color: #fff;
+    border: none;
+    font-size: 0.36rem;
+    letter-spacing: 0.02rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.submit {
+    width: 100%;
+    height: 1.1rem;
+    background-color: #fff;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: none;
+    .tol-info {
+        width: 4.8rem;
+        height: 100%;
+        float: left;
+        border-top: 1px solid #EBEBEB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .select-all {
+            font-size: 0.26rem;
+            color: #333;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            .layui-form-checkbox[lay-skin=primary] i {
+                width: 0.45rem;
+                height: 0.45rem;
+                line-height: 0.45rem;
+                border-radius: 0.45rem;
+            }
+            .layui-form-checkbox {
+                margin-right: 0.2rem;
+            }
+        }
+        .count-info{
+            font-size: 0.24rem;
+            color: #333;
+            line-height: 0.4rem;
+            span{
+                color: #2b76ff;
+                margin: 0 0.1rem;
+            }
+        }
+    }
+    button {
+        float: right;
+        width: 2.7rem;
+        height: 100%;
+        font-size: 0.36rem;
+        background-color: #2b76ff;
+        border-top: 1px solid #2b76ff;
+    }
+}
+
+.layui-anim-rotate {
+    animation-duration: 0.7s !important;
+}
+.layui-form-checkbox{
+    border-radius: 0;
+}
+.layui-form-checkbox[lay-skin=primary] i {
+    width: 0.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border-radius: 50%;
+}
+
+.layui-form-checked[lay-skin=primary] i {
+    background-color: #2b76ff;
+    border-color: #2b76ff;
+}
+
+.layui-form-checkbox[lay-skin=primary]:hover i {
+    border-color: #2b76ff;
+}
+.layui-form-checkbox[lay-skin=primary] span{
+    line-height: 0.5rem;
+    padding-right: 0;
+}

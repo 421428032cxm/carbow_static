@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>编辑信息</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/JZGJ-editInfo.css" />
+	</head>
+
+	<body>
+		<section>
+			<form class="layui-form" action="">
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>驾驶证号：</label>
+					<div class="layui-input-block">
+						<input type="text" name="title" required lay-verify="required" placeholder="请输入驾驶证号" autocomplete="off" class="layui-input">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>档案编号：</label>
+					<div class="layui-input-block">
+						<input type="text" name="title" required lay-verify="required" placeholder="请输入档案编号" autocomplete="off" class="layui-input">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>准驾类型：</label>
+					<div class="layui-input-block">
+						<select name="city" lay-verify="required">
+							<option value="">C1</option>
+							<option value="0">A1</option>
+							<option value="1">A2</option>
+							<option value="2">B1</option>
+							<option value="3">B2</option>
+							<option value="4">C1</option>
+						</select>
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>手机号码：</label>
+					<div class="layui-input-block">
+						<input type="number" name="title" required lay-verify="required" placeholder="请输入您的手机号码" autocomplete="off" class="layui-input">
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>初次领证日期：</label>
+					<div class="layui-input-block lz-date">
+						<input type="text" class="layui-input" id="licenseDate" placeholder="请选择日期">
+						<img src="img/data.png"/>
+					</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label"><span class="star">*</span>驾照有效期至：</label>
+					<div class="layui-input-block period-date">
+						<input type="text" class="layui-input" id="period" placeholder="请选择驾照有效期">
+						<img src="img/data.png"/>
+					</div>
+				</div>
+				<div class="bottom">
+					<a href="javascript:history.back(-1);" class="back">取消</a>
+				    <button class="layui-btn" lay-submit lay-filter="formDemo">添加</button>
+				</div>
+			</form>
+		</section>
+	</body>
+	<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/JZGJ-editInfo.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

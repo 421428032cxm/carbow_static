@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>车辆信息</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/4S-vericleInfor.css" />
+	</head>
+
+	<body>
+		<section class="banner">
+			<!--banner轮播图-->
+			<div class="layui-carousel" id="banner" lay-filter="test1">
+				<div carousel-item>
+					<div><img src="img/banner2.png" /></div>
+					<div><img src="img/banner.png" /></div>
+					<div><img src="img/banner2.png" /></div>
+				</div>
+				<!--数字角标-->
+				<div class="img-index-mask"></div>
+				<div class="img-index">
+					<span class="now">1</span>/<span class="total">3</span>
+				</div>
+			</div>
+			<!--汽车信息-->
+			<div class="infor">
+				<h3>大众 M4 2012款 1.5L手动豪华型</h3>
+				<div>
+					<span class="price">16.98 - 25.98万</span>
+					<span class="time">12天前</span>
+				</div>
+			</div>
+		</section>
+
+		<!--商家描述-->
+		<section class="describe">
+			<h3><span>商家描述</span></h3>
+			<a href="javascript:;">
+				<div class="branch">
+					<div class="shop-name">
+						<img src="img/car_logo.png" />
+						<p>濮阳顺峰汽车4S店</p>
+					</div>
+					<span><i class="layui-icon">&#xe602;</i></span>
+				</div>
+			</a>
+			<div class="des-content">
+				<p>濮阳顺峰汽车4S店是一家专注于二手车回收和出售的汽车店，欢迎进店选购。</p>
+				<p>濮阳顺峰汽车4S店是一家专注于二手车回收和出售的汽车店，欢迎进店选购。濮阳顺峰汽车4S店是一家专注于二手车回收和出售的汽车店，欢迎进店选购。濮阳顺峰汽车4S店是一家专注于二手车回收和出售的汽车店，欢迎进店选购。濮阳顺峰汽车4S店是一家专注于二手车回收和出售的汽车店，欢迎进店选购。濮阳顺峰汽车4S店是一家专注于二手车回收和出售的汽车店，欢迎进店选购。濮阳顺峰汽车4S店是一家专注于二手车回收和出售的汽车店，欢迎进店选购。濮阳顺峰汽车4S店是一家专注于二手车回收和出售的汽车店，欢迎进店选购。濮阳顺峰汽车4S店是一家专注于二手车回收和出售的汽车店，欢迎进店选购。</p>
+			</div>
+		</section>
+
+		<!--展开更多-->
+		<div class="more">
+			<p><span>展开更多</span><span><i class="layui-icon">&#xe61a;</i></span></p>
+		</div>
+	</body>
+	<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/4S-vehicleInfor.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

@@ -1,0 +1,98 @@
+.banner {
+    width: 100%;
+    height: 3.9rem;
+    background: url(../img/JZGJ-banner.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.housekeeper {
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    .common {
+        width: 3.6rem;
+        height: 1.8rem;
+        text-align: center;
+        .gj-common {
+            margin-top: 0.3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 0.8rem;
+                height: 0.8rem;
+                margin-right: 0.25rem;
+            }
+            span {
+                font-size: 0.32rem;
+                color: #fff;
+            }
+        }
+    }
+    .license {
+        margin-right: 0.2rem;
+        background: url(../img/jzgj.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .cars {
+        background: url(../img/clgj.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    small {
+        margin-top: 0.12rem;
+        color: #fff;
+    }
+}
+
+.nav {
+    background-color: #fff;
+    padding: 0.4rem 0;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            width: 25%;
+            text-align: center;
+            margin-bottom: 0.7rem;
+            img {
+                width: 0.8rem;
+                height: 0.8rem;
+                margin: 0 auto 0.35rem;
+            }
+            span {
+                font-size: 0.28rem;
+                color: #000;
+            }
+        }
+        .line-two {
+            margin-bottom: 0;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 1.1rem;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    ul {
+        height: 100%;
+        display: flex;
+        li {
+            height: 100%;
+            width: 25%;
+            padding-top: 0.15rem;
+            text-align: center;
+            img {
+                width: 0.4rem;
+                height: 0.4rem;
+                margin: 0 auto 0.05rem;
+            }
+            span {
+                font-size: 0.26rem;
+            }
+        }
+    }
+}

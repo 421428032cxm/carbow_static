@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>4S店</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/4S-index.css" />
+	</head>
+
+	<body>
+		<section class="head">
+			<div class="wrap">
+				<!--banner轮播图-->
+				<div class="layui-carousel" id="test1">
+					<div carousel-item>
+						<div><img src="img/banner.png" /></div>
+						<div><img src="img/banner2.png" /></div>
+						<div><img src="img/banner.png" /></div>
+					</div>
+				</div>
+				<div class="search">
+					<input type="" name="" id="" value="" placeholder="搜索 品牌、车系、车型" />
+					<span><i class="layui-icon">&#xe615;</i></span>
+				</div>
+			</div>
+		</section>
+		<!--品牌logo-->
+		<section class="brand">
+			<ul>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_dz.png" />
+						<span>大众</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_xfl.png" />
+						<span>雪佛兰</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_xd.png" />
+						<span>现代</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_byd.png" />
+						<span>比亚迪</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_bm.png" />
+						<span>宝马</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_bc.png" />
+						<span>奔驰</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_ad.png" />
+						<span>奥迪</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_ft.png" />
+						<span>丰田</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<!--所有品牌-->
+		<section class="all-brand">
+			<ul class="sort_box">
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_dz.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">奥迪</p>
+							<p class="country">德国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_xfl.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">阿斯顿.马丁</p>
+							<p class="country">英国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_xd.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">阿尔法.罗密欧</p>
+							<p class="country">意大利</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_byd.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">AC Schnitzer</p>
+							<p class="country">德国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_bm.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">Alpina</p>
+							<p class="country">德国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_bc.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">上汽荣威</p>
+							<p class="country">中国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_ad.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">比亚迪</p>
+							<p class="country">中国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_ft.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">大众</p>
+							<p class="country">德国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_xfl.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">雪佛兰</p>
+							<p class="country">美国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_bc.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">尊荣捷豹</p>
+							<p class="country">德国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_ad.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">丰田</p>
+							<p class="country">英国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_byd.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">雪铁龙</p>
+							<p class="country">中国</p>
+						</div>
+					</a>
+				</li>
+				<li class="sort_list">
+					<a href="4S-carShop.html">
+						<div class="num_logo">
+							<img src="img/brand_bm.png" alt="">
+						</div>
+						<div>
+							<p class="num_name">比亚迪</p>
+							<p class="country">日本</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<!--字母检索-->
+		<section class="initials">
+			<ul>
+				<li></li>
+			</ul>
+		</section>
+		<!--弹出效果-->
+		<section id="letter"></section>
+	</body>
+	<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/4S-index.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

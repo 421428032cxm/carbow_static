@@ -1,0 +1,132 @@
+.banner {
+  width: 100%;
+}
+.banner .layui-carousel {
+  position: relative;
+}
+.banner .layui-carousel img {
+  width: 100%;
+  height: 100%;
+}
+.banner .layui-carousel .img-index-mask {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0.6;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.2rem;
+}
+.banner .layui-carousel .img-index {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 0.82rem;
+  font-size: 0.32rem;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.2rem;
+}
+.banner .infor {
+  background-color: #fff;
+  padding: 0.3rem 0.2rem;
+  margin-bottom: 0.2rem;
+}
+.banner .infor h3 {
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0.2rem;
+}
+.banner .infor div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner .infor div .price {
+  font-size: 0.3rem;
+  font-weight: bold;
+  color: red;
+}
+.banner .infor div .time {
+  font-size: 0.24rem;
+  color: #999;
+}
+.describe {
+  background-color: #fff;
+}
+.describe h3 {
+  padding: 0.3rem 0.2rem;
+  border-bottom: 1px solid #EBEBEB;
+}
+.describe h3 span {
+  font-size: 0.3rem;
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 0.2rem;
+  border-left: 0.1rem solid #2b76ff;
+}
+.describe .branch {
+  height: 1rem;
+  background-color: #fff;
+  padding: 0.2rem;
+  border-bottom: 1px solid #EBEBEB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.describe .branch .shop-name {
+  display: flex;
+  align-items: center;
+}
+.describe .branch .shop-name img {
+  width: 0.3rem;
+  height: 0.3rem;
+  margin-right: 0.2rem;
+}
+.describe .branch .shop-name p {
+  font-size: 0.3rem;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+.describe .branch span i {
+  font-size: 0.35rem;
+}
+.describe .des-content {
+  height: 4.9rem;
+  padding: 0.3rem 0.2rem;
+  font-size: 0.28rem;
+  color: #666;
+  line-height: 0.55rem;
+  overflow: hidden;
+}
+.describe .des-content p {
+  text-indent: 0.25rem;
+  text-align: justify;
+}
+.more {
+  width: 100%;
+  height: 1rem;
+  border-top: 1px solid #EBEBEB;
+  line-height: 1rem;
+  font-size: 0.26rem;
+  color: #2b76ff;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.more span:nth-child(1) {
+  display: inline-block;
+  margin-right: 0.3rem;
+}
+.more i {
+  font-size: 0.35rem;
+}

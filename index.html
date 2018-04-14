@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>车工科技</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<style type="text/css">
+		/*@media print {
+			.noprint {
+				display: none;
+			}
+		}*/
+	</style>
+
+	<body>
+		<section class="banner"></section>
+
+		<section class="housekeeper">
+			<div class="license common">
+				<a href="JZGJ-licenseList.html">
+					<div class="gj-common">
+						<img src="img/logo_jzgj.png" />
+						<span>驾照管家<br/></span>
+					</div>
+					<small>驾照永不隔申</small>
+				</a>
+			</div>
+			<div class="cars common">
+				<a href="CLGJ-nullList.html">
+					<div class="gj-common">
+						<img src="img/logo_clgj.png" />
+						<span>车辆管家<br/></span>
+					</div>
+					<small>车辆永不隔申</small>
+				</a>
+			</div>
+		</section>
+		<section class="nav">
+			<ul>
+				<li>
+					<a href="">
+						<img src="img/index_wzcx.png" />
+						<span>违章查询</span>
+					</a>
+				</li>
+				<li>
+					<a href="FKDJ-nullList.html">
+						<img src="img/index_fkdj.png" />
+						<span>罚款代缴</span>
+					</a>
+				</li>
+				<li>
+					<a href="CLMJ-overduer.html">
+						<img src="img/index_clmj.png" />
+						<span>车辆免检审验</span>
+					</a>
+				</li>
+				<li class="line-two">
+					<a href="CLTG-carList.html">
+						<img src="img/index_4S.png" />
+						<span>检测线审验</span>
+					</a>
+				</li>
+				<li class="line-two">
+					<a href="">
+						<img src="img/index_gsd.png" />
+						<span>隔审单开具</span>
+					</a>
+				</li>
+				<li class="line-two">
+					<a href="">
+						<img src="img/index_cwdb.png" />
+						<span>车务代办</span>
+					</a>
+				</li>
+				<li class="line-two">
+					<a href="4S-index.html">
+						<img src="img/index_jcx.png" />
+						<span>4S店</span>
+					</a>
+				</li>
+				<li class="line-two">
+					<a href="2SC-index.html">
+						<img src="img/index_esc.png" />
+						<span>二手车</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<!--startprint-->
+		<footer>
+			<ul>
+				<li class="active">
+					<a href="index.html">
+						<img src="img/footer_home.png" />
+						<span>首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="my-order.html">
+						<img src="img/footer_center.png" />
+						<span>我的订单</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-index.html">
+						<img src="img/footer_order.png" />
+						<span>4S店</span>
+					</a>
+				</li>
+				<li>
+					<a href="2SC-index.html">
+						<img src="img/gong.png" />
+						<span>二手车</span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		<!--endprint-->
+	</body>
+
+</html>
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="jquery.PrintArea.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	//方法一：CSS控制局部大印，利用media print{}，定义noprint:display:none，给不需要打印的地方，加上noprint类名；
+	//	window.print();
+
+	//方法二：在需要打印的区域前后加<!--startprint--><!--endprint-->标记
+	//	function doPrint() {
+	//		bdhtml = window.document.body.innerHTML;
+	//		sprnstr = "<!--startprint-->";
+	//		eprnstr = "<!--endprint-->";
+	//		prnhtml = bdhtml.substr(bdhtml.indexOf(sprnstr) + 17);
+	//		prnhtml = prnhtml.substring(0, prnhtml.indexOf(eprnstr));
+	//		window.document.body.innerHTML = prnhtml;
+	//		window.print();
+	//	}
+
+	//方法三：jquery.printarea.js插件, 将需要打印的区域包裹在id为dayin的div内, body内容不会被替换
+	//	function do_print() {
+	//		$(".my_show").printArea(); 
+	//	}
+</script>

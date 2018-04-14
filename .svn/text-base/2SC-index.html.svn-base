@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>二手车</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/2SC-index.css" />
+	</head>
+
+	<body>
+		<section class="head">
+			<div class="wrap">
+				<!--banner轮播图-->
+				<div class="layui-carousel" id="banner">
+					<div carousel-item>
+						<div><img src="img/2SCbanner.png" /></div>
+						<div><img src="img/2SCbanner.png" /></div>
+						<div><img src="img/2SCbanner.png" /></div>
+					</div>
+				</div>
+				<div class="search">
+					<input type="" name="" id="" value="" placeholder="搜索 品牌、车系、车型" />
+					<span><i class="layui-icon">&#xe615;</i></span>
+				</div>
+			</div>
+		</section>
+
+		<!--品牌logo-->
+		<section class="brand">
+			<ul>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_dz.png" />
+						<span>大众</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_xfl.png" />
+						<span>雪佛兰</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_xd.png" />
+						<span>现代</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_byd.png" />
+						<span>比亚迪</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_bm.png" />
+						<span>宝马</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_bc.png" />
+						<span>奔驰</span>
+					</a>
+				</li>
+				<li>
+					<a href="4S-carShop.html">
+						<img src="img/brand_ad.png" />
+						<span>奥迪</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/more_brand.png" />
+						<span style="color: #2b76ff;">更多品牌</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<div>
+			<!--筛选条件-->
+			<ul class="filter-tab">
+				<li class="default">
+					<span>默认排序</span><span class="icon"><i class="layui-icon">&#xe625;</i></span>
+
+					<li class="price-sort">
+						<span>价格排序</span><span class="icon"><i class="layui-icon">&#xe625;</i></span>
+
+						<li class="brandClick">
+							<span>品牌</span><span class="icon"><i class="layui-icon">&#xe625;</i></span>
+						</li>
+			</ul>
+		</div>
+		<!--展示列表-->
+		<section class="list">
+			<!--列表展示-->
+			<div class="display">
+				<ul>
+					<li>
+						<div class="car-image"><img src="img/dispaly.png" /></div>
+						<div class="infor">
+							<p class="name line1-overflow">长城 M4</p>
+							<p class="size">2012款 1.5L手动豪华型</p>
+							<div class="tips">
+								<span>2013年 2月/7.6公里</span>
+								<span>15.48万</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="car-image"><img src="img/dispaly.png" /></div>
+						<div class="infor">
+							<p class="name line1-overflow">大众 速腾新款大众</p>
+							<p class="size">2012款 1.5L手动豪华型</p>
+							<div class="tips">
+								<span>2013年 2月/7.6公里</span>
+								<span>5.48万</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!--品牌筛选列表-->
+		<section class="brand-filter brand">
+			<ul>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_dz.png" />
+						<span>大众</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_xfl.png" />
+						<span>雪佛兰</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_xd.png" />
+						<span>现代</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_byd.png" />
+						<span>比亚迪</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_bm.png" />
+						<span>宝马</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_bc.png" />
+						<span>奔驰</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_ad.png" />
+						<span>奥迪</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_ft.png" />
+						<span>丰田</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_dz.png" />
+						<span>本田</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_xfl.png" />
+						<span>长安</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_xd.png" />
+						<span>日产</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="img/brand_byd.png" />
+						<span>吉利</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+	</body>
+	<script src="layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/2SC-index.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

@@ -1,0 +1,99 @@
+.filter-tab {
+  height: 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #EBEBEB;
+  display: flex;
+}
+.filter-tab li {
+  width: 33.333%;
+  display: inline-block;
+  text-align: center;
+  line-height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-tab li .icon {
+  margin-left: 0.1rem;
+}
+.filter-tab li .icon i {
+  font-size: 0.35rem;
+}
+.list .filter-result {
+  padding: 0.3rem;
+}
+.list .filter-result div {
+  width: 1.6rem;
+  height: 0.5rem;
+  border: 1px solid #2b76ff;
+  border-radius: 2px;
+  color: #2b76ff;
+  background-color: #fff;
+  display: flex;
+}
+.list .filter-result div span:nth-of-type(1) {
+  width: 1.2rem;
+  height: 100%;
+  font-size: 0.28rem;
+  text-align: center;
+  line-height: 0.5rem;
+}
+.list .filter-result div span:nth-of-type(2) {
+  width: 0.4rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list .filter-result div span:nth-of-type(2) i {
+  font-size: 0.3rem;
+}
+.list .display .layui-field-title {
+  margin: 0;
+}
+.list .display ul li {
+  background-color: #fff;
+  padding: 0.3rem 0.3rem 0.3rem 0.2rem;
+  margin-bottom: 0.2rem;
+  display: flex;
+}
+.list .display ul li .car-image {
+  width: 2.4rem;
+  height: 1.6rem;
+  margin-right: 0.4rem;
+}
+.list .display ul li .car-image img {
+  width: 100%;
+  height: 100%;
+}
+.list .display ul li .infor {
+  width: 4.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.list .display ul li .infor .name {
+  font-size: 0.32rem;
+  color: #333;
+}
+.list .display ul li .infor .size {
+  font-size: 0.25rem;
+  color: #333;
+}
+.list .display ul li .infor .tips {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list .display ul li .infor .tips span:nth-of-type(1) {
+  font-size: 0.24rem;
+  color: #666;
+}
+.list .display ul li .infor .tips span:nth-of-type(2) {
+  font-size: 0.3rem;
+  color: red;
+  font-weight: bold;
+}
+.brand-filter {
+  display: none;
+}

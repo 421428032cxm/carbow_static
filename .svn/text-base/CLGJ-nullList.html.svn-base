@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>车辆管家</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/JZGJ-nullList.css" />
+	</head>
+	<body>
+		<section>
+			<img src="img/gong.png" class="logo"/>
+			<p>暂未添加车辆</p>
+			<p>车弓邀请管理您的爱车！</p>
+			<div class="add">
+				<a href="JZGJ-addlicense.html">
+					<img src="img/plus.png"/>
+				    <span>添加车辆</span>
+				</a>
+			</div>
+		</section>
+	</body>
+</html>
